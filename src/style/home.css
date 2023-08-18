@@ -1,0 +1,61 @@
+.home {
+  min-height: 640px;
+  background: rgba(58, 84, 122, 0.98);
+}
+.home-data {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.home-text-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add some spacing between the text containers */
+  margin-top: 8vh;
+  width: fit-content;
+  margin-left: 8vh;
+}
+
+
+.home-text h3,
+.home-text h2 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: var(--font-family-2);
+  margin: 0;
+}
+/* Style for the image container */
+.home-img-btn-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem; /* Adjust the padding as needed */
+}
+
+/* Style for the background div */
+.home-bg {
+background-color: #f5f5f5; /* Set your desired background color */
+padding: 1rem; /* Adjust the padding as needed */
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the image itself */
+.home-image {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+
+
+
